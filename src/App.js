@@ -1,22 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import Note from './Notes';
+import './index.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="Notes animate-fade-in">
+      <header className="Note-header">
+        <h1 className="text-3xl text-center font-bold mb-3 uppercase">To-Do List</h1>
+        <Note />
       </header>
     </div>
   );
