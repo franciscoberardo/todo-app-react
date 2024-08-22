@@ -1,4 +1,4 @@
-# React Todo App 
+# React To-do App 
 
 This is a Todo List application built with **React** and **Tailwind CSS**. The app allows users to add, mark as completed, and delete tasks with ease.
 https://franciscoberardo.github.io/todo-app-react/
