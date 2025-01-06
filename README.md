@@ -40,5 +40,28 @@ To run this project locally, follow these steps:
 
 The app will be available at http://localhost:3000.
 
+## Running with Docker
 
-   
+To run this project locally, follow these steps:
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/franciscoberardo/todo-app-react.git
+
+2. Navigate to the project directory:
+
+    ```bash
+   cd todo-app-react
+
+3. Build the Docker image:
+
+   ```bash
+   docker build -t todo-app-react .
+
+4. Run the Docker container:
+
+   ```bash
+   docker run -p 8080:8080 todo-app-react
+
+The app will be available at http://localhost:8080.
+
